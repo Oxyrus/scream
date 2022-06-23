@@ -1,0 +1,11 @@
+name: ScreamPlugin
+version: '${project.version}'
+main: com.oxyrus.scream.ScreamPlugin
+api-version: 1.19
+authors: [ Oxyrus ]
+description: Scare a player via a command
+website: https://github.com/Oxyrus
+commands:
+  scare:
+    description: Scare a player, giving them blindness and playing a sound at their location
+    usage: /scare Oxyrus
